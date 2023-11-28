@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 10:27:43 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 21:10:47 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/11/28 12:13:18 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ void attack_simul(ClapTrap& a, ClapTrap& b);
 
 int main()
 {
-	FragTrap obj1("mob1");
-	FragTrap obj2("mob2");
+	DiamondTrap obj1("mob1");
+	DiamondTrap obj2("mob2");
 
 	attack_simul(obj1, obj2);
 
@@ -37,8 +37,14 @@ int main()
 	attack_simul(obj1, obj2);
 	obj2.beRepaired(10);
 
+	obj1.guardGate();
+	obj2.guardGate();
+
 	obj1.highFivesGuys();
 	obj2.highFivesGuys();
+
+	obj1.whoAmI();
+	obj2.whoAmI();
 
 	return 0;
 }

@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 20:56:06 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 20:58:12 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/11/28 11:57:04 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include "ClapTrap.hpp"
 
-class FragTrap : public ClapTrap
+class FragTrap :  virtual public ClapTrap
 {
 private:
 	FragTrap();

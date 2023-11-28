@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 10:27:42 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 20:53:51 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/11/28 12:04:03 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,9 +116,19 @@ int	ClapTrap::getHp()
 	return hp;
 }
 
+int	ClapTrap::getMaxHp()
+{
+	return maxHp;
+}
+
 int ClapTrap::getEp()
 {
 	return ep;
+}
+
+int ClapTrap::getMaxEp()
+{
+	return maxEp;
 }
 
 int ClapTrap::getAtk()

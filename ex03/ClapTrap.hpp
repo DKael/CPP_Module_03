@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 10:27:41 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 21:02:17 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/11/28 12:03:29 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,9 @@ public:
 	void beRepaired(unsigned int amount);
 	std::string getName();
 	int	getHp();
+	int	getMaxHp();
 	int getEp();
+	int getMaxEp();
 	int getAtk();
 	void setName(const std::string& _name);
 	void setHp(int _hp);
