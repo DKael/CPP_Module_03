@@ -12,11 +12,6 @@
 
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap() : hp(10), ep(10), atk(0)
-{
-	std::cout << "[Default constructor called]\n";
-}
-
 ClapTrap::ClapTrap(const std::string& _name) : name(_name), hp(10), ep(10), atk(0)
 {
 	std::cout << "[User defined constructor called]\n";
