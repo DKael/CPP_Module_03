@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 20:55:58 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 21:00:47 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/12/04 16:24:16 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,12 +69,12 @@ void FragTrap::highFivesGuys(void)
 {
 	if (hp == 0)
 	{
-		std::cout << "FragTrap can't highfive because hp is 0!\n";
+		std::cout << "FragTrap " << name <<  " can't highfive because hp is 0!\n";
 		return ;
 	}
 	else if (ep == 0)
 	{
-		std::cout << "FragTrap" << name << " have not enouth energy point\n";
+		std::cout << "FragTrap " << name << " have not enouth energy point\n";
 		return ;
 	}
 

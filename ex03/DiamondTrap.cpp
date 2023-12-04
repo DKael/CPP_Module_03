@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 21:09:46 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/28 12:16:21 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/12/04 16:35:08 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,16 @@ void DiamondTrap::attack(const std::string& target)
 
 void DiamondTrap::whoAmI()
 {
-	std::cout << "DiamondTrap's name : " << name << "\nClapTrap's name : " << ClapTrap::name << '\n';
+	if (hp == 0)
+	{
+		std::cout << "DiamondTrap "  << name <<  " can't can't take action because hp is 0!\n";
+		return ;
+	}
+	else if (ep == 0)
+	{
+		std::cout << "DiamondTrap "  << name <<  " can't can't take action because ep is 0!\n";
+		return ;
+	}
+
+	std::cout << "DiamondTrap's name : " << name << ", ClapTrap's name : " << ClapTrap::name << '\n';
 }

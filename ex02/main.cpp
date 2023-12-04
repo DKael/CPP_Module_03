@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 10:27:43 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 21:03:06 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/12/04 16:24:47 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,6 @@ int main()
 	obj1.setAtk(6);
 	attack_simul(obj1, obj2);
 	obj2.beRepaired(12);
-	attack_simul(obj1, obj2);
-	attack_simul(obj1, obj2);
 	attack_simul(obj1, obj2);
 	obj2.beRepaired(10);
 

@@ -6,7 +6,7 @@
 /*   By: hyungdki <hyungdki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 11:41:27 by hyungdki          #+#    #+#             */
-/*   Updated: 2023/11/25 20:52:40 by hyungdki         ###   ########.fr       */
+/*   Updated: 2023/12/04 16:25:55 by hyungdki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ void ScavTrap::guardGate()
 {
 	if (hp == 0)
 	{
-		std::cout << "ScavTrap can't guard gate because hp is 0!\n";
+		std::cout << "ScavTrap " << name << " can't guard gate because hp is 0!\n";
 		return ;
 	}
 	else if (ep == 0)
