@@ -75,21 +75,21 @@ make                      # 전체 빌드
 make clean / fclean / re  # 재빌드 / 정리
 ```
 
-### ex00 ClapTrap
+### ex00
 
 bash
 ```
 ./claptrap
 ```
 
-### ex01 ScavTrap
+### ex01
 
 bash
 ```
 ./scavtrap
 ```
 
-### ex02 FragTrap
+### ex02
 
 bash
 ```
@@ -97,7 +97,7 @@ bash
 
 ```
 
-### ex03 DiamondTrap
+### ex03
 
 bash
 ```
