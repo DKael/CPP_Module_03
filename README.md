@@ -1,12 +1,12 @@
 # CPP Module 03
 
-## 1. 프로젝트 소개
+## 1️⃣ 프로젝트 소개
 
 CPP Module 03은 상속(Inheritance)과 다형성(Polymorphism) 의 기초를 학습하는 모듈로, 기본 클래스(Base class)와 파생 클래스(Derived class) 간의 관계를 설계하고, 가상 함수와 소멸자(Virtual destructor)의 필요성을 체험적으로 이해하는 것을 목표로 합니다.
 
 ---
 
-## 2. 과제 목표
+## 2️⃣ 과제 목표
 	•	상속 관계 설계 및 코드 재사용성 강화
 	•	가상 함수(Virtual function)를 통한 동적 바인딩 이해
 	•	객체 slicing, 메모리 누수 등 상속 관련 함정 학습
@@ -14,7 +14,7 @@ CPP Module 03은 상속(Inheritance)과 다형성(Polymorphism) 의 기초를 �
 
 ---
 
-## 3. Exercise별 구현 사항
+## 3️⃣ Exercise별 구현 사항
 ### ex00 — Aaaaand... OPEN!
 * 기본 캐릭터 클래스 구현 (이름, HP, 에너지, 공격력)
 * 공격, 수리, 데미지 처리 메서드 작성
@@ -33,7 +33,7 @@ CPP Module 03은 상속(Inheritance)과 다형성(Polymorphism) 의 기초를 �
 
 ---
 
-## 4. 배운 점
+## 4️⃣ 배운 점
 
 ### 4.1 상속 설계 원칙
 	•	코드 재사용 극대화, 공통 속성의 상위 클래스 추출
@@ -65,7 +65,7 @@ CPP Module 03은 상속(Inheritance)과 다형성(Polymorphism) 의 기초를 �
 
 ---
 
-## 5. Exercise별 실행 방법
+## 5️⃣ Exercise별 실행 방법
 
 ### 공통
 
