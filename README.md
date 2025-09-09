@@ -94,7 +94,6 @@ bash
 bash
 ```
 ./fragtrap
-
 ```
 
 ### ex03
