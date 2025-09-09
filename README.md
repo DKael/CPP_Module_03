@@ -15,18 +15,18 @@ CPP Module 03은 상속(Inheritance)과 다형성(Polymorphism) 의 기초를 �
 ---
 
 ## 3. Exercise별 구현 사항
-### ex00 - Aaaaand... OPEN!
+### ex00 — Aaaaand... OPEN!
 * 기본 캐릭터 클래스 구현 (이름, HP, 에너지, 공격력)
 * 공격, 수리, 데미지 처리 메서드 작성
 
-### ex01 - Serena, my love!
+### ex01 — Serena, my love!
 * ClapTrap을 상속받아 Guard Gate 모드 추가
 * 생성자/소멸자 오버라이딩
 
-### ex02 - Repetitive work
+### ex02 — Repetitive work
 * FragTrap 클래스 구현, High Fives 요청 기능 추가
 
-### ex03 - Now it’s weird!
+### ex03 — Now it’s weird!
 * ScavTrap, FragTrap을 동시 상속 → 다중 상속 구조 설계
 * 이름 충돌 해결 및 ClapTrap의 속성 재활용
 * DiamondTrap 고유의 introduce 기능 구현
